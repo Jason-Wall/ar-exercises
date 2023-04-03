@@ -6,23 +6,23 @@ puts "----------"
 # class Store 
 # end
 
-storeB = Store.create
-storeB.name = "Burnaby"
-storeB.annual_revenue = 300000
-storeB.mens_apparel = true
-storeB.womens_apparel= true
-storeB.save
+store = Store.create
+store.name = "Burnaby"
+store.annual_revenue = 300000
+store.mens_apparel = true
+store.womens_apparel= true
+store.save
 
-storeR = Store.create
-storeR.name = "Richmond"
-storeR.annual_revenue = 1260000
-storeR.mens_apparel = false
-storeR.womens_apparel= true
-storeR.save
+store = Store.create
+store.name = "Richmond"
+store.annual_revenue = 1260000
+store.mens_apparel = false
+store.womens_apparel= true
+store.save
 
-storeG = Store.create
-storeG.name = "Gastown"
-storeG.annual_revenue = 1900000
-storeG.mens_apparel = true
-storeG.womens_apparel= false
-storeG.save
+store = Store.create
+store.name = "Gastown"
+store.annual_revenue = 1900000
+store.mens_apparel = true
+store.womens_apparel= false
+store.save
